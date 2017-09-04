@@ -1,0 +1,18 @@
+# Breeze xfwm theme by Ramón Cahenzli
+#
+# Based on KDE/Plasma's Breeze theme, the work of:
+# Hugo Pereira Da Costa <hugo.pereira@free.fr> - Developer 
+# Andrew Lake <jamboarder@gmail.com> - Designer
+# File structure based on Axiom xfwm theme by Rogier Koppejan.
+
+
+active_text_color=#cecece
+button_offset=7
+button_spacing=4
+full_width_title=true
+inactive_text_color=#B1B1B1
+maximized_offset=2
+show_app_icon=true
+title_horizontal_offset=0
+title_vertical_offset_active=1
+title_vertical_offset_inactive=1
