@@ -2,13 +2,13 @@ style "xfwm-tabwin" {
   Xfwm4TabwinWidget::border-width = 1
   Xfwm4TabwinWidget::border-alpha = 1.0
   Xfwm4TabwinWidget::icon-size = 64
-  Xfwm4TabwinWidget::alpha = 1.0
+  Xfwm4TabwinWidget::alpha = 0.95
   Xfwm4TabwinWidget::border-radius = 2
 
-  bg[NORMAL]    = @bg_color_dark
+  bg[NORMAL]    = shade (0.65, @bg_color_dark)
   bg[ACTIVE]  = shade (0.65, @bg_color)
   bg[PRELIGHT]    = shade (0.85, @selected_bg_color)
-  bg[SELECTED]  = @bg_color_dark
+  bg[SELECTED]  = shade (0.65, @bg_color_dark)
 
   fg[NORMAL] = shade (0.8, @base_color)
   fg[ACTIVE]  = @base_color
